@@ -23,6 +23,7 @@ public class EmployeeController {
         return new ResponseEntity<>(savedEmployee, HttpStatus.CREATED);
     }
     // get employee by id rest api
+    
     @GetMapping("{id}") // spring annotation
     public ResponseEntity<EmployeeDto> getEmployeeById(@PathVariable("id") Long employeeId) {
         EmployeeDto employeeDto = employeeService.getEmployeeById(employeeId);
