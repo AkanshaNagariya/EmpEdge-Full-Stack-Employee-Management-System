@@ -54,21 +54,21 @@ Make sure you have the following installed:
 
 1. Clone the repo:
     ```bash
-    git clone https://github.com/AkanshaNagariya/EmpEdge.git
+    git clone https://github.com/AkanshaNagariya/EmpEdge-Full-Stack-Employee-Management-System.git
     ```
 
 2. **Backend** setup:
     ```bash
-    cd EmpEdge/backend
+    cd ems-backend
     mvn clean install
     mvn spring-boot:run
     ```
 
 3. **Frontend** setup:
     ```bash
-    cd ../frontend
-    npm install
-    npm start
+    cd full-stack
+    cd ems-frontend
+    npm run dev
     ```
 
 4. Visit [http://localhost:3000](http://localhost:3000) to view the app.
@@ -81,37 +81,6 @@ Make sure you have the following installed:
 - All operations are sent via HTTP requests to the Spring Boot backend  
 - Data is persisted in MySQL using JPA  
 - Refreshing or navigating automatically syncs the UI with the latest data
-
----
-
-## Project Structure
-
-EmpEdge/
-├── backend/ # Spring Boot REST API
-│ ├── src/main/java/…
-│ └── src/main/resources/application.properties
-└── frontend/ # React app
-├── src/components/…
-└── public/
-
-
----
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repo  
-2. Create a feature branch (`git checkout -b feature/NewFeature`)  
-3. Commit your changes (`git commit -m 'Add new feature'`)  
-4. Push to your branch (`git push origin feature/NewFeature`)  
-5. Open a pull request
-
----
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
