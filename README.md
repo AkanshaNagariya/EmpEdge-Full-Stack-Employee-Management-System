@@ -42,7 +42,7 @@ Make sure you have the following installed:
 - Java JDK 8+  
 - Maven 3+  
 - Node.js and npm  
-- MySQL server with a database named `empedge_db`
+- MySQL server 
 
 ---
 
