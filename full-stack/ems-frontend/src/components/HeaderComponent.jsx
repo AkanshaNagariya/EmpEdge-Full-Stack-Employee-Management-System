@@ -6,7 +6,7 @@ const HeaderComponent = () => {
       <div className="container">
         <a className="navbar-brand d-flex align-items-center" href="/">
           <i className="bi bi-people-fill me-2"></i>
-          Employee Management System
+           EmpEdge 🏢 Employee Management System
         </a>
       </div>
     </header>
