@@ -5,7 +5,7 @@ const FooterComponent = () => {
     <footer className="footer">
       <div className="container text-center">
         <span className="text-white">
-          © {new Date().getFullYear()} Employee Management System. All rights reserved.
+          © {new Date().getFullYear()} EmpEdge: Employee Management System. All rights reserved.
         </span>
       </div>
     </footer>
